@@ -2,8 +2,6 @@ import turtle
 import random
 
 # Function to draw a triangle
-
-
 def form_tri(side):
     for i in range(3):
         my_pen.fd(side)
@@ -11,8 +9,6 @@ def form_tri(side):
         side -= 10
 
 # Function to draw a square
-
-
 def form_sq(side):
     for i in range(4):
         my_pen.fd(side)
@@ -20,16 +16,12 @@ def form_sq(side):
         side -= 5
 
 # Function to draw a pentagon
-
-
 def form_pen(side):
     for i in range(5):
         my_pen.fd(side)
         my_pen.left(72)
 
 # Function to draw a hexagon
-
-
 def form_hex(side):
     for i in range(6):
         my_pen.fd(side)
